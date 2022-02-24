@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image:  url('/img/maroon_table_felt.jpg');
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: lightgrey;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+  margin: 0;
+}
+h2 {
+  margin-top: 20px;
+}
+
+.card-slot {
+  height: 315px;
+  width: 225px;
+  border: solid black 2px;
+  border-radius: 10px;
+  margin: 10px auto;
+
+}
+button {
+  background: green;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 10px;
+  color: lightgrey;
+}
+
+button:hover {
+  background: grey;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
